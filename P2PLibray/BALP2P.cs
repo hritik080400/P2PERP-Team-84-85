@@ -13,7 +13,7 @@ namespace P2PLibray
 
         MSSQL objSql = new MSSQL();
 
-        public async Task<DataSet> DisplayItemList()
+        public async Task<DataSet> DemoItemList()
         {
             Dictionary<String, String> param = new Dictionary<String, String>();
             param.Add("@Flag", "ListRegister");
