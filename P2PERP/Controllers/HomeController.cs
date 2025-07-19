@@ -26,5 +26,9 @@ namespace P2PERP.Controllers
 
             return View();
         }
+        public void Comment()
+        {
+            Console.WriteLine("Hello");
+        }
     }
 }
