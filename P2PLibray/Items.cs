@@ -14,6 +14,11 @@ namespace P2PLibray
             Console.WriteLine("Hello");
         }
 
+        public void Comment2()
+        {
+            Console.WriteLine("Hello2");
+        }
+
 
     }
 }
