@@ -18,6 +18,10 @@ namespace P2PLibray
         {
             Console.WriteLine("Hello2");
         }
+        public void Demo()
+        {
+            Console.WriteLine("Divyani");
+        }
 
 
     }
