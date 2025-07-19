@@ -26,5 +26,11 @@ namespace P2PERP.Controllers
 
             return View();
         }
+        public ActionResult DemoHritik()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
