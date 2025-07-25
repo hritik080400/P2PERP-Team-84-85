@@ -15,7 +15,9 @@ namespace P2PERP.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+
+            ViewBag.Message = "Your application description page 2.";
+            ViewBag.Message = "Your application description page 2.";
 
             return View();
         }
@@ -25,6 +27,18 @@ namespace P2PERP.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public void Comment()
+        {
+            Console.WriteLine("Hello");
+
+        public ActionResult DemoHritik()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+
         }
     }
 }
